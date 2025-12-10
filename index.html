@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Clara R – Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+  >
+
+  <style>
+    body {
+      font-family: "Helvetica Neue", Arial, sans-serif;
+      background-color: #ffeef7;
+    }
+    .navbar {
+      background-color: #ffd3e8 !important;
+    }
+    .navbar-brand, .nav-link {
+      color: #4a2740 !important;
+      font-weight: 600;
+    }
+    .hero {
+      padding: 80px 0;
+      background: linear-gradient(135deg, #ffeef7, #ffe1f0);
+    }
+    .hero h1 {
+      font-weight: 700;
+      color: #4a2740;
+    }
+    .hero p.lead {
+      color: #5a3a52;
+    }
+    .btn-primary {
+      background-color: #ff7dab;
+      border-color: #ff7dab;
+    }
+    .btn-primary:hover {
+      background-color: #ff649b;
+      border-color: #ff649b;
+    }
+    .section-title {
+      margin-top: 60px;
+      margin-bottom: 24px;
+      font-weight: 600;
+      color: #4a2740;
+      text-align: left;
+    }
+    .card {
+      border: none;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+      border-radius: 12px;
+    }
+    .card-title {
+      color: #4a2740;
+      font-weight: 600;
+    }
+    .card-subtitle {
+      color: #a06c96;
+    }
+    footer {
+      margin-top: 60px;
+      padding: 20px 0;
+      background: #ffd3e8;
+      font-size: 0.9rem;
+      color: #4a2740;
+    }
+    #skills ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+  </style>
+</head>
+
+<body id="top">
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="#top">Clara R</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarNav" aria-controls="navbarNav"
+            aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-7">
+          <h1>Hi, I’m Clara.</h1>
+          <p class="lead">
+            UC San Diego student interested in public service, business, and design.
+            This portfolio highlights work from COGS 3 and other courses.
+          </p>
+          <a href="Clara_R_Resume_TimesNewRoman_Size12_Updated.pdf"
+             class="btn btn-primary btn-lg" target="_blank">
+            View My Resume (PDF)
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS SECTION -->
+  <section id="projects">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+
+      <div class="row">
+        <!-- StudyBuddy -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">StudyBuddy Website</h5>
+              <h6 class="card-subtitle mb-2 text-muted">HTML · CSS · Bootstrap</h6>
+              <p class="card-text">
+                Multi-page academic support site built in COGS 3 using
+                responsive layout and clean UI elements.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- FitFlow -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">FitFlow Health App</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Figma Prototype</h6>
+              <p class="card-text">
+                High-fidelity fitness tracking prototype showcasing UI/UX design,
+                layout, and user flow creation.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Political Science Essays -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Political Science Writing</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Research & Analysis</h6>
+              <p class="card-text">
+                Selected essays applying research and structured argumentation
+                to government, policy, and global affairs topics.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS SECTION -->
+  <section id="skills">
+    <div class="container">
+      <h2 class="section-title">Skills</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <h5>Technical Skills</h5>
+          <ul>
+            <li>HTML, CSS, Bootstrap</li>
+            <li>Figma UI/UX prototyping</li>
+            <li>Excel, Google Workspace</li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <h5>Professional Skills</h5>
+          <ul>
+            <li>Leadership & teamwork</li>
+            <li>Customer service & communication</li>
+            <li>Fast learner, adaptable, hard-working</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <p>
+        I am a UC San Diego student studying Political Science with interests in
+        public service, business, and design. Through COGS 3 and other courses,
+        I have gained experience in visual design, front-end development, and project structure.
+      </p>
+    </div>
+  </section>
+
+  <!-- RESUME SECTION -->
+  <section id="resume">
+    <div class="container">
+      <h2 class="section-title">Resume</h2>
+      <p>
+        <a href="Clara_R_Resume_TimesNewRoman_Size12_Updated.pdf" target="_blank">
+          Download Resume (PDF)
+        </a>
+      </p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="text-center">
+    <div class="container">
+      <p>© 2024 Clara R • Portfolio</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
